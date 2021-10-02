@@ -1,0 +1,119 @@
+body{
+    background-color: black;  
+    left: 16px; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.wd-top{
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-top: 0px;
+}
+.wd-search{
+    width: 90%;
+    height: 40px;
+    background-color: rgb(58, 55, 55);
+    color: rgb(118, 118, 118);
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+.wd-search-input{
+    position: absolute;
+    background-color: rgb(58, 55, 55);
+    outline: none;
+    border: none;
+    padding: 14px 15px 10px 15px;
+   
+}
+::placeholder{
+    color: rgb(110, 118, 125);
+    font-size: medium;
+}
+.wd-svg {
+    color: rgb(110, 118, 125);
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 9px 10px 10px 20px;
+  }
+.fa, .wd-gear{
+    color: rgb(29, 161, 242);
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 235px;
+    padding-top: 9px;
+  }
+ul{
+    margin-top: 0px;
+    padding: 0px;
+    padding-top: 15px;   
+}
+.wd-nav > li{
+    display: inline;
+}
+.wd-nav > li > a{
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(110, 118, 125); 
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.wd-nav > li >.active{
+    padding-left: 0px ;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 15px;
+    color: rgb(29, 161, 242);
+}
+hr{
+    height: 0px;
+    color: gray;
+    background-color: gray;
+    margin-left: 100px;
+    border:solid;
+    border-width: 0.1px;
+}
+.wd-trend,.wd-date{
+    display: inline;
+    color: rgb(110, 118, 125); 
+    font-size: small;
+}
+.wd-trend > span{
+    position: absolute;
+    right: 235px;
+    font-weight: bold;
+}
+.wd-auth{
+    color: white;
+    font-size: small;
+}
+.wd-auth > img{
+    width: 14px;
+    height: 14px;
+}
+.wd-head-image{
+    float: right;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+}
+.wd-head{
+    width: 80%;
+    padding-top: 2px;
+    color:white;
+}
+.wd-trend,.wd-auth,.wd-head{
+    display: block;
+}
+
+
