@@ -1,0 +1,99 @@
+body{
+    background-color: black;  
+    left: 16px; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.wd-white{
+    color: white;
+}
+h2,p{
+    margin: 0px;
+    max-width: 506px;
+}
+ul>li{
+    display: inline;
+}
+.wd-dp{
+    padding-right: 10px;
+    float: left;
+    padding-bottom: 50%;
+    width: 48px;
+    border-radius: 50%;
+}
+.wd-top{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-top: 0px;
+}
+.wd-top > span{
+    position: absolute;
+    right: 35px;
+    font-weight: bold;
+    padding-right: 200px;
+}
+.wd-contentPic{
+    border-radius: 20px;
+    width: 504px;
+    height: 264px;
+    padding-bottom: 5px;
+}
+.wd-smfont{
+    margin-top: 5px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.wd-gray{
+    color: rgb(110, 118, 125);
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color:rgb(110, 118, 125);
+}
+svg {
+    font-size: small;
+    color: rgb(110, 118, 125);
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding-left: 80px;
+    padding-top: 10px;
+  }
+.wd-extrabox{
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-radius: 25px;
+    border-top: 0px;
+    max-width: 507px;
+    margin-left: 57px;
+    margin-top: -17px;
+    padding-left: 5px;
+}
+.wd-svgcol{
+    color: rgb(250, 17, 95);
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+}
+.wd-svgalign{
+    padding-left: 0px;
+}
+.wd-align{
+    display: inline;
+    position: relative;
+    bottom: 4px;
+}

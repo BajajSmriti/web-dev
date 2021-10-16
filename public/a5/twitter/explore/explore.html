@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>A3-Twitter-explore</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+  <link href="explore.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class='container'>
+    <div class='row'>
+
+      <!--Left Menu block-->
+      <div class="col-lg-2 col-md-2 col-2">
+
+        <nav>
+          <i class="fab fa-twitter fa-1x"></i>
+
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-home"></i> <span class="menu-text">Home</span></a>
+
+            </li>
+            <li class="nav-item wd-bg">
+              <a class="nav-link" href="#"> <i class="fas fa-hashtag"></i> <span class="menu-text">Explore</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-bell"></i> <span class="menu-text">Notifications</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-envelope"></i> <span class="menu-text">Messages</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-bookmark"></i> <span class="menu-text">Bookmarks</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="far fa-list-alt"></i> <span class="menu-text">Lists</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-user-circle"></i> <span class="menu-text">Profile</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-ellipsis-h"></i> <span class="menu-text">More</span></a>
+            </li>
+          </ul>
+
+          <button type="button" class="btn btn-primary btn-md tweeterBtn">Tweet</button>
+        </nav>
+
+
+      </div>
+
+      <!--middle block-->
+      <div class="col-lg-6 col-md-10 col-10">
+        <div class="wd-search-area">
+          <i class="fa fa-cog fa-2x"></i>
+          <div class="wd-search">
+            <svg class="wd-svg">
+              <g>
+                <path
+                  d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
+                </path>
+              </g>
+            </svg>
+            <input type="search" class="wd-search-input" placeholder="Search Twitter">
+          </div>
+        </div>
+        <br/>
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">For you</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Trending</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sports</a>
+          </li>
+          <li class="nav-item d-none d-md-block">
+            <a class="nav-link" href="#">Entertainment</a>
+          </li>
+        </ul>
+
+        <ul class="list-group">
+          <li class="list-group-item wd-starship">
+            <img src="starship.jpg" class="wd-topic-heading-image img-responsive">
+            <h3 class="carousel-caption">SpaceX's Starship </h3>
+          </li>
+          <li class="list-group-item">
+            <img src="react.png" class="wd-topic-img" />
+            <a href="#" class="wd-topic-topicname">Web Development</a><br>
+            <a href="#" class="wd-topic-heading">ReactJS </a><i class="fa fa-check-circle"></i><span
+              class="wd-topic-time"> - 2h</span><br>
+            <span class="wd-topic-description">React.js is a component based front end library that makes it very easy
+              to build Single Page Applications or SPAs</span>
+          </li>
+          <li class="list-group-item">
+            <img src="js.jpg" class="wd-topic-img" />
+            <a href="#" class="wd-topic-heading">JavaScript </a><i class="fa fa-check-circle"></i><span
+              class="wd-topic-time"> - 2h</span><br>
+            <span class="wd-topic-description">JavaScript is a programming language that can run on browsers as well as
+              desktops</span><br>
+            <span class="wd-topic-tweetcount">123K Tweets</span>
+          </li>
+          <li class="list-group-item">
+            <img src="jquery.jpg" class="wd-topic-img" />
+            <a href="#" class="wd-topic-topicname">Web Development</a><br>
+            <a href="#" class="wd-topic-heading">jQuery</a><br>
+            <span class="wd-topic-tweetcount">123K Tweets</span>
+          </li>
+          <li class="list-group-item">
+            <img src="node.jpg" class="wd-topic-img" />
+            <a href="#" class="wd-topic-topicname">Web Development</a><br>
+            <a href="#" class="wd-topic-heading">NodeJS </a><i class="fa fa-check-circle"></i><span
+              class="wd-topic-time"> - 2h</span><br>
+            <span class="wd-topic-tweetcount">123K Tweets</span>
+          </li>
+        </ul>
+
+
+      </div>
+
+      <!--Right  block-->
+      <div class="col-lg-4 d-none d-lg-block">
+        <ul class="list-group">
+          <li class="list-group-item">Who to follow</li>
+          <li class="list-group-item"><button class="btn btn-primary btn-sm followBtn" type="button">Follow</button><img
+              src="java.jpg" class="wd-follow-img">Java <i class="fa fa-check-circle"></i><br>
+            <a href="#" class="wd-follow-handle">@Java</a>
+          </li>
+          <li class="list-group-item"><button class="btn btn-primary btn-sm followBtn" type="button">Follow</button><img
+              src="relativity.jpg" class="wd-follow-img">Relativity Space <i class="fa fa-check-circle"></i><br>
+            <a href="#" class="wd-follow-handle">@relativityspace</a>
+          </li>
+          <li class="list-group-item"><button class="btn btn-primary btn-sm followBtn" type="button">Follow</button><img
+              src="virgin.jpg" class="wd-follow-img">Virgin Galactic <i class="fa fa-check-circle"></i><br>
+            <a href="#" class="wd-follow-handle">@virgingalactic</a>
+          </li>
+          <li class="list-group-item"><button class="btn btn-primary btn-sm followBtn" type="button">Follow</button><img
+              src="nasa.jpg" class="wd-follow-img">NASA <i class="fa fa-check-circle"></i><br>
+            <a href="#" class="wd-follow-handle">@NASA</a>
+          </li>
+          <li class="list-group-item"><button class="btn btn-primary btn-sm followBtn" type="button">Follow</button><img
+              src="tesla.jpg" class="wd-follow-img">Tesla <i class="fa fa-check-circle"></i><br>
+            <a href="#" class="wd-follow-handle">@Tesla</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
