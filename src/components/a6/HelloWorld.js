@@ -1,7 +1,7 @@
 import React from "react";
 import A6 from "./index";
 import History from "../history";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const HelloWorld = () => {
     return (
