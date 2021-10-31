@@ -9,11 +9,11 @@ const WhoToFollowListItem = (
     return (
         <li className="list-group-item">
             <button className="btn btn-primary btn-sm followBtn" type="button">Follow</button>
-            <img src={who.avatarIcon} className="wd-follow-img" />
+            <img src={who.avatarIcon} alt={who.avatarIcon} className="wd-follow-img" />
             {who.userName}&nbsp;
             <i className="fa fa-check-circle"></i>
             <br />
-            <a href="#" className="wd-follow-handle">@{who.handle}</a>
+            <a href="/handle" className="wd-follow-handle">@{who.handle}</a>
         </li>
     );
 }

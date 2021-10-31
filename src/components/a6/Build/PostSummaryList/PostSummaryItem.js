@@ -7,16 +7,16 @@ const PostSummaryItem = ({ posts = {
 } }) => {
     if (posts.topic !== '') {
         return (<li className="list-group-item">
-            <img src={posts.image} className="wd-topic-img" />
-            <a href="#" className="wd-topic-topicname">{posts.topic}</a><br />
-            <a href="#" className="wd-topic-heading">{posts.userName} </a><i className="fa fa-check-circle"></i>
+            <img src={posts.image} alt={posts.image} className="wd-topic-img" />
+            <a href="/topic" className="wd-topic-topicname">{posts.topic}</a><br />
+            <a href="/username" className="wd-topic-heading">{posts.userName} </a><i className="fa fa-check-circle"></i>
             <span className="wd-topic-time"> - {posts.time}</span><br />
             <span className="wd-topic-description">{posts.title}</span>
         </li>)
     }
     return (<li className="list-group-item">
-        <img src={posts.image} className="wd-topic-img" />
-        <a href="#" className="wd-topic-heading">{posts.userName} </a><i className="fa fa-check-circle"></i>
+        <img src={posts.image} alt={posts.image} className="wd-topic-img" />
+        <a href="/username" className="wd-topic-heading">{posts.userName} </a><i className="fa fa-check-circle"></i>
         <span className="wd-topic-time"> - {posts.time}</span><br />
         <span className="wd-topic-description">{posts.title}</span>
     </li>

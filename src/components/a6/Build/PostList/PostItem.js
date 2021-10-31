@@ -2,7 +2,7 @@ const PostItem = (posts) => {
     posts = posts.posts
     var link = ''
     var html = ''
-    if (posts.link != '') {
+    if (posts.link !== '') {
         link = "https://" + posts.link
         html = <li className="list-group-item">
             <span className=""> {posts.desc1}</span><br />
@@ -22,14 +22,14 @@ const PostItem = (posts) => {
     return (
         <li className="list-group-item">
             <div className="row">
-                <div className="col-2 col-lg-2"><img src={posts.userImage} className="wd-dp" /></div>
+                <div className="col-2 col-lg-2"><img src={posts.userImage} alt={posts.userImage} className="wd-dp" /></div>
                 <div className="col-10 col-lg-10">
                     {posts.userName}&nbsp;<i className="fa fa-check-circle"></i>&nbsp;
                     <div className="wd-gray">@{posts.handle} <span>&nbsp;&#183;&nbsp;</span> {posts.time}</div>
                     <div className="small pb-2">{title}</div>
                     <ul className="list-group">
                         <li className="list-group-item wd-inner">
-                            <img src={posts.image} className="wd-inner" />
+                            <img src={posts.image} alt={posts.image} className="wd-inner" />
                         </li>
                         {html}
                         <li className="wd-nostyle wd-gray">
