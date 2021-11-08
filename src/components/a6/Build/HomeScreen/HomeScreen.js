@@ -3,7 +3,7 @@ import PostList from "../PostList/index.js";
 import PostSummaryList from "../PostSummaryList";
 import "../css/home.css";
 
-const HomeScreen = () => {
+const HomeScreen6 = () => {
     return (
         <div className="row mt-2">
             <div className="col-2 col-md-2 col-lg-1 col-xl-2">
@@ -23,4 +23,4 @@ const HomeScreen = () => {
     );
 }
 
-export default HomeScreen;
+export default HomeScreen6;
