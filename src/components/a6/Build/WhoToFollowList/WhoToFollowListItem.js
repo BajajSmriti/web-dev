@@ -2,7 +2,7 @@ import React from "react";
 const WhoToFollowListItem = (
     {
         who = {
-            "avatarIcon": "../Images/java.jpg",
+            "avatarIcon": "/images/java.jpg",
             "userName": "Java", "handle": "Java"
         }
     }) => {

@@ -3,7 +3,7 @@ const PostSummaryItem = ({ posts = {
     "userName": "ReactJS",
     "time": "2h",
     "title": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
-    "image": "../Images/react.png"
+    "image": "/images/react.png"
 } }) => {
     if (posts.topic !== '') {
         return (<li className="list-group-item">

@@ -18,7 +18,7 @@ export const createNewPost = (dispatch, newPost) =>{
         "verified": false,
         "handle": "ReactJS",
         "time": "2h",
-        "userImage": "../../../images/react.png",
+        "userImage": "/images/react.png",
         "comments": 123,
         "retweets": 234,
         "likes": 345,

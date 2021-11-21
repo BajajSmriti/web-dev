@@ -25,7 +25,7 @@ const WhatsHappening = () => {
                 <tbody>
                     <tr>
                         <td style={{ verticalAlign: 'top' }}>
-                            <img src={'../../Images/elon.jpg'}
+                            <img src={'/images/elon.jpg'}
                                 alt = "elon.jpg" className="wd-dp" />
                         </td>
                         <td style={{ width: "100%" }}>

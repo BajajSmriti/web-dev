@@ -4,7 +4,7 @@
 		"firstName": "Jose",
 		"lastName": "Annunziato",
 		"handle": "jannunzi",
-		"profilePicture": "../../Images/dp.png",
+		"profilePicture": "/images/dp.png",
 		"bannerPicture": "https://pbs.twimg.com/profile_banners/2566935066/1619383510/1080x360",
 		"bio": "Faculty, Software Engineer, AI, Space, and renewable enthusiast. Retweets and likes are not endorsements.",
 		"website": "youtube.com/webdevtv",

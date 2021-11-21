@@ -11,8 +11,8 @@ const post = (state = posts, action) => {
                 "handle": "ReactJS",
                 "time": "2h",
                 "title": action.post.post,
-                "userImage": "../../../images/react.png",
-                // "logo-image": "../../../images/react.png",
+                "userImage": "/images/react.png",
+                // "logo-image": "/images/react.png",
                 "comments": 123,
                 "retweets": 234,
                 "likes": 345

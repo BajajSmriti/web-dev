@@ -28,7 +28,7 @@ const ExploreComponent = () => {
       </ul>
       <ul className="list-group mb-2">
         <li className="list-group-item wd-starship">
-          <img src="../../Images/starship.jpg" alt="starship" className="wd-topic-heading-image img-responsive" />
+          <img src="/images/starship.jpg" alt="starship" className="wd-topic-heading-image img-responsive" />
           <h3 className="carousel-caption">SpaceX's Starship </h3>
         </li>
       </ul>
