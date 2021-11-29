@@ -2,6 +2,7 @@
 
 # dependencies
 /src/components/a8/web-dev-node/node_modules
+/src/components/a9/web-dev-node/node_modules
 /node_modules
 /.pnp
 .pnp.js
