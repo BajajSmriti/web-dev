@@ -1,4 +1,4 @@
-const POST_API = 'http://localhost:4000/rest/who';
+const POST_API = '/rest/who';
 
 export const fetchAllWhos = (dispatch) =>
     fetch(POST_API)

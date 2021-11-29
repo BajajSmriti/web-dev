@@ -1,4 +1,4 @@
-const POST_API = 'http://localhost:4000/api/posts';
+const POST_API = '/api/posts';
 
 export const fetchAllPosts = (dispatch) =>
     fetch(POST_API)

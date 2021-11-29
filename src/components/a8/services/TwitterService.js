@@ -1,4 +1,4 @@
-const POST_API = 'http://localhost:4000/api/posts';
+const POST_API = '/api/posts';
 
 export const fetchAllPosts = (dispatch) =>
     fetch(POST_API)
@@ -24,7 +24,7 @@ export const createNewPost = (dispatch, newPost) =>{
         "likes": 345,
         "title": newPost.post
     }
-    fetch('http://localhost:4000/api/posts', {
+    fetch('/api/posts', {
         method: 'POST',
         body: JSON.stringify(newPost),
         headers: {
