@@ -14,7 +14,7 @@ module.exports = (app) => {
             res.send(status)})
     }
 
-    app.put('/api/profile', saveProfile);
+    app.put('/rest/api/profile', saveProfile);
 
-    app.get('/api/profile', getProfile);
+    app.get('/rest/api/profile', getProfile);
 };

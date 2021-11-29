@@ -27,12 +27,12 @@ module.exports = (app) => {
         res.json(movies);
     }
     
-    app.put('/api/movies/:mid', saveMovie);
+    app.put('/rest/api/movies/:mid', saveMovie);
     
-    app.post('/api/movies', createMovie);
+    app.post('/rest/api/movies', createMovie);
 
-    app.delete('/api/movies/:mid', deleteMovie);
+    app.delete('/rest/api/movies/:mid', deleteMovie);
 
-    app.get('/api/movies', getAllMovies);
+    app.get('/rest/api/movies', getAllMovies);
     
 };

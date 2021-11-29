@@ -23,13 +23,13 @@ module.exports = (app) => {
             .then(status => res.send(status))
     }
 
-    app.put('/api/posts/:id/like', likePost);
+    app.put('/rest/api/posts/:id/like', likePost);
 
-    app.delete('/api/posts/:id', deletePost);
+    app.delete('/rest/api/posts/:id', deletePost);
 
-    app.post('/api/posts', createPost);
+    app.post('/rest/api/posts', createPost);
 
-    app.get('/api/posts', findAllPosts);
+    app.get('/rest/api/posts', findAllPosts);
 };
 
 

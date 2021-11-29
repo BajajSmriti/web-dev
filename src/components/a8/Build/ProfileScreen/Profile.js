@@ -19,7 +19,7 @@ const Profile = (profileData) => {
         dob = moment(profileData.dateOfBirth).format('MMMM D, Y');
     
 
-    var doj = moment(profileData.dateJoined).format('MMMM Y');
+    var doj = moment(profileData.dateJoined,'M Y').format('MMMM Y');
     var web;
     if (profileData.website.includes("https://"))
         web = profileData.website

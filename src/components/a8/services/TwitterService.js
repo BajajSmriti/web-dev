@@ -1,4 +1,5 @@
-const POST_API = '/api/posts';
+import { config } from '../constants'
+const POST_API = config.url.API_URL+'/api/posts';
 
 export const fetchAllPosts = (dispatch) =>
     fetch(POST_API)
@@ -24,7 +25,7 @@ export const createNewPost = (dispatch, newPost) =>{
         "likes": 345,
         "title": newPost.post
     }
-    fetch('/api/posts', {
+    fetch(config.url.API_URL+'/api/posts', {
         method: 'POST',
         body: JSON.stringify(newPost),
         headers: {
