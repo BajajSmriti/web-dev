@@ -18,8 +18,6 @@ const Profile = (profileData) => {
     else
         dob = Moment(profileData.dateOfBirth).format('MMMM D, Y');
     
-    console.log("PREEE",profileData.dateJoined);
-
 
     var doj = Moment(profileData.dateJoined).format('MMMM Y');
     var web;

@@ -1,6 +1,6 @@
 const prod = {
     url: {
-        API_URL: 'https://mern-a8-sb.herokuapp.com'
+        API_URL: 'https://node-a9.herokuapp.com'
     }
 };
 const dev = {

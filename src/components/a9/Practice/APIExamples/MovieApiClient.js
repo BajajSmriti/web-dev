@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
+import { config } from '../../../a8/constants';
 const MovieApiClient = () => {
 
     const [movie, setMovie] = useState({ _id: (new Date()).getTime() + '',title: '', rating: 2.5 });
     const onMovieTitleChange = (event) =>
         setMovie({ ...movie, title: event.target.value });
     const createMovieClickHandler = () =>
-        fetch('/api/movies', {
+        fetch(config.url.API_URL+'/api/movies', {
             method: 'POST',
             body: JSON.stringify(movie),
             headers: {
@@ -17,21 +18,21 @@ const MovieApiClient = () => {
 
     const [movies, setMovies] = useState([]);
     useEffect(() =>
-        fetch('/api/movies')
+        fetch(config.url.API_URL+'/api/movies')
             .then(response => response.json())
             .then(movies => setMovies(movies))
         , []);
 
 
     const deleteMovie = (movie) =>
-        fetch(`/api/movies/${movie._id}`, {
+        fetch(config.url.API_URL+`/api/movies/${movie._id}`, {
             method: 'DELETE'
         })
             .then(response => response.json())
             .then(movies => setMovies(movies));
 
     const saveMovie = () =>
-        fetch(`/api/movies/${movie._id}`, {
+        fetch(config.url.API_URL+`/api/movies/${movie._id}`, {
             method: 'PUT',
             body: JSON.stringify(movie),
             headers: {

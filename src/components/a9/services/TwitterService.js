@@ -1,4 +1,5 @@
-const POST_API = '/api/posts';
+import { config } from '../constants';
+const POST_API = config.url.API_URL+'/rest/api/posts';
 
 export const fetchAllPosts = (dispatch) =>
     fetch(POST_API)

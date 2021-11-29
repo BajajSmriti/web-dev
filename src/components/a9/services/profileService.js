@@ -1,4 +1,5 @@
-const PROFILE_API = '/api/profile';
+import { config } from '../constants';
+const PROFILE_API = config.url.API_URL+'/rest/api/profile';
 
 export const getCurrentProfile = (dispatch) =>
     fetch(PROFILE_API)

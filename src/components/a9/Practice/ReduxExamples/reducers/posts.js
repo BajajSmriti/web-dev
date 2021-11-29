@@ -1,7 +1,6 @@
 // import posts from './data/posts.json';
 
 const post = (state = [], action) => {
-    console.log(action.post);
     switch (action.type) {
         case 'create-post':
             return ([

@@ -1,4 +1,5 @@
-const URL = '/rest/movies';
+import { config } from '../../constants';
+const URL = config.url.API_URL+'/rest/movies';
 
 export const findAllMovies = () =>
   fetch(URL)
