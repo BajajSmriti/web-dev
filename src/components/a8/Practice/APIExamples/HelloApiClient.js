@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import { config } from '../../constants'
 const HelloApiClient = () => {
+    console.log(config.url.API_URL);
     const [hello, setHello] = useState('');
     useEffect(() => {
         fetch(config.url.API_URL+'/hello')
