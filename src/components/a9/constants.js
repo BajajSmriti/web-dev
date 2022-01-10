@@ -5,7 +5,7 @@ const prod = {
 };
 const dev = {
     url: {
-        API_URL: 'http://localhost:4000'
+        API_URL: 'https://node-a9.herokuapp.com'
     }
 };
 
